@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -313,8 +313,8 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&lt; Data sheet
 <wire x1="-0.0853" y1="-0.635" x2="0.4853" y2="-0.635" width="0.1016" layer="21"/>
 <smd name="1" x="-0.75" y="-1" dx="1" dy="0.7" layer="1"/>
 <smd name="2" x="0.95" y="-1" dx="0.6" dy="0.7" layer="1"/>
-<smd name="4" x="0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
-<smd name="3" x="-0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
+<smd name="3" x="0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
+<smd name="4" x="-0.95" y="1" dx="0.6" dy="0.7" layer="1"/>
 <text x="-1.6" y="1.6" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.6" y="-2.85" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.7366" y1="-1.3208" x2="1.1938" y2="-0.635" layer="51"/>
