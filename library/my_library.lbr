@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1917,7 +1917,6 @@ Source: www.allegromicro.com .. 3901.pdf</description>
 <connect gate="G$1" pin="RX_IN1" pad="8"/>
 <connect gate="G$1" pin="RX_IN2" pad="9"/>
 <connect gate="G$1" pin="SYS_CLK" pad="27"/>
-<connect gate="G$1" pin="TH_PAD" pad="EP"/>
 <connect gate="G$1" pin="TX_OUT" pad="5"/>
 <connect gate="G$1" pin="VDD_A" pad="1"/>
 <connect gate="G$1" pin="VDD_I/O" pad="16"/>
@@ -1925,7 +1924,7 @@ Source: www.allegromicro.com .. 3901.pdf</description>
 <connect gate="G$1" pin="VDD_RF" pad="3"/>
 <connect gate="G$1" pin="VDD_X" pad="32"/>
 <connect gate="G$1" pin="VIN" pad="2"/>
-<connect gate="G$1" pin="VSS" pad="10"/>
+<connect gate="G$1" pin="VSS" pad="10 EP"/>
 <connect gate="G$1" pin="VSS_A" pad="15"/>
 <connect gate="G$1" pin="VSS_D" pad="29"/>
 <connect gate="G$1" pin="VSS_PA" pad="6"/>
