@@ -1887,6 +1887,35 @@ Source: www.allegromicro.com .. 3901.pdf</description>
 <text x="-13.97" y="16.51" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="ADT7320">
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<pin name="CS" x="-10.16" y="-5.08" visible="pad" length="middle"/>
+<pin name="MOSI" x="-10.16" y="-2.54" visible="pad" length="middle"/>
+<pin name="MISO" x="-10.16" y="0" visible="pad" length="middle"/>
+<pin name="SCLK" x="-10.16" y="2.54" visible="pad" length="middle"/>
+<pin name="INT" x="10.16" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="CT" x="10.16" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="GND" x="10.16" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="VDD" x="10.16" y="5.08" visible="pad" length="middle" rot="R180"/>
+<text x="-5.08" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-4.445" y="1.905" size="1.016" layer="96">SCLK</text>
+<text x="-4.445" y="1.905" size="1.016" layer="96">SCLK</text>
+<text x="-4.445" y="-0.635" size="1.016" layer="96">MISO</text>
+<text x="-4.445" y="-3.175" size="1.016" layer="96">MOSI</text>
+<text x="-4.445" y="-3.175" size="1.016" layer="96">MOSI</text>
+<text x="-4.445" y="-5.715" size="1.016" layer="96">CS</text>
+<text x="-4.445" y="-5.715" size="1.016" layer="96">CS</text>
+<text x="-2.54" y="-3.175" size="1.016" layer="96" rot="R180">__</text>
+<text x="4.445" y="-4.445" size="1.016" layer="96" rot="R180">INT</text>
+<text x="4.445" y="-1.905" size="1.016" layer="96" rot="R180">CT</text>
+<text x="4.445" y="0.635" size="1.016" layer="96" rot="R180">GND</text>
+<text x="4.445" y="0.635" size="1.016" layer="96" rot="R180">GND</text>
+<text x="4.445" y="5.715" size="1.016" layer="96" rot="R180">VDD</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TRF7970A">
@@ -2230,6 +2259,28 @@ Digikey: https://www.digikey.com/product-detail/en/analog-devices-inc/AD8295ACPZ
 <connect gate="G$1" pin="REF" pad="6"/>
 <connect gate="G$1" pin="RG" pad="2"/>
 <connect gate="G$1" pin="RG'" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADT7320">
+<gates>
+<gate name="G$1" symbol="ADT7320" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN16-4X4">
+<connects>
+<connect gate="G$1" pin="CS" pad="4"/>
+<connect gate="G$1" pin="CT" pad="10"/>
+<connect gate="G$1" pin="GND" pad="11 EXP"/>
+<connect gate="G$1" pin="INT" pad="9"/>
+<connect gate="G$1" pin="MISO" pad="2"/>
+<connect gate="G$1" pin="MOSI" pad="3"/>
+<connect gate="G$1" pin="SCLK" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
