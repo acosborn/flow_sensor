@@ -6599,7 +6599,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C22" library="SparkFun-Capacitors" deviceset="270PF" device="-0603-50V-5%" value="220pF"/>
 <part name="C23" library="SparkFun-Capacitors" deviceset="100PF" device="-0603-50V-5%" value="100pF"/>
 <part name="C24" library="SparkFun-Capacitors" deviceset="27PF" device="-0603-50V-5%" value="27pF"/>
-<part name="IC1" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="TPS6120*" device="" technology="1"/>
+<part name="IC1" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="TPS6120*" device="" technology="0" value="TPS61200"/>
 <part name="L3" library="SparkFun-Coils" deviceset="INDUCTOR" device="-0805-3.3UH" value="2.2µH"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1M"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="180OHM" device="-0603-1/10W-1%" value="180k"/>
@@ -6636,7 +6636,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$5" library="my_library" deviceset="LM321" device=""/>
 <part name="R11" library="SparkFun-Resistors" deviceset="1.5KOHM" device="-0603-1/10W-1%" value="1.5k"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="8.2KOHM" device="-0603-1/10W-5%" value="1.5k"/>
-<part name="IC2" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="TPS6120*" device="" technology="1"/>
+<part name="IC2" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="TPS6120*" device="" technology="0" value="TPS61200"/>
 <part name="L4" library="SparkFun-Coils" deviceset="INDUCTOR" device="-0805-3.3UH" value="2.2µH"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1M"/>
 <part name="R16" library="SparkFun-Resistors" deviceset="180OHM" device="-0603-1/10W-1%" value="180k"/>
@@ -7531,7 +7531,7 @@ battery to ~3.8V</text>
 <junction x="-43.18" y="55.88"/>
 </segment>
 </net>
-<net name="COM_EN" class="0">
+<net name="COMMS_EN" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="EN"/>
 <wire x1="-86.36" y1="50.8" x2="-88.9" y2="50.8" width="0.1524" layer="91"/>
@@ -7548,7 +7548,7 @@ battery to ~3.8V</text>
 <wire x1="317.5" y1="-22.86" x2="327.66" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="COM_EN2" class="0">
+<net name="COMMS_EN2" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="EN2"/>
 <wire x1="-86.36" y1="48.26" x2="-96.52" y2="48.26" width="0.1524" layer="91"/>
@@ -7565,7 +7565,7 @@ battery to ~3.8V</text>
 <pinref part="U$9" gate="G$1" pin="P3.6"/>
 </segment>
 </net>
-<net name="COM_SS" class="0">
+<net name="COMMS_SS" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="I/O_4"/>
 <wire x1="-86.36" y1="45.72" x2="-116.84" y2="45.72" width="0.1524" layer="91"/>
@@ -8113,7 +8113,7 @@ battery to ~3.8V</text>
 <junction x="63.5" y="38.1"/>
 </segment>
 </net>
-<net name="IRQ" class="0">
+<net name="COMMS_IRQ" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="IRQ"/>
 <wire x1="-86.36" y1="30.48" x2="-93.98" y2="30.48" width="0.1524" layer="91"/>
