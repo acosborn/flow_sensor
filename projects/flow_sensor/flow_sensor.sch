@@ -4264,48 +4264,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="8.2KOHM" prefix="R">
-<description>&lt;h3&gt;8.2kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-5%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-10646"/>
-<attribute name="VALUE" value="8.2k"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1.5KOHM" prefix="R">
-<description>&lt;h3&gt;1.5kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08306"/>
-<attribute name="VALUE" value="1.5k"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="680OHM" prefix="R">
 <description>&lt;h3&gt;680Ω resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -6611,9 +6569,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R8" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="787OHM" device="-0603-1/10W-1%" value="600"/>
-<part name="R13" library="SparkFun-Resistors" deviceset="8.2KOHM" device="-0603-1/10W-5%" value="1.5k"/>
-<part name="R14" library="SparkFun-Resistors" deviceset="1.5KOHM" device="-0603-1/10W-1%" value="1.5k"/>
-<part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND2" device=""/>
 <part name="C28" library="SparkFun-Capacitors" deviceset="4.7UF" device="0603" value="3uF"/>
 <part name="U$4" library="my_library" deviceset="AD8222" device=""/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND2" device=""/>
@@ -6634,8 +6589,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R35" library="SparkFun-Resistors" deviceset="787OHM" device="-0603-1/10W-1%" value="800"/>
 <part name="C41" library="SparkFun-Capacitors" deviceset="4.7UF" device="0603" value="3uF"/>
 <part name="U$5" library="my_library" deviceset="LM321" device=""/>
-<part name="R11" library="SparkFun-Resistors" deviceset="1.5KOHM" device="-0603-1/10W-1%" value="1.5k"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="8.2KOHM" device="-0603-1/10W-5%" value="1.5k"/>
 <part name="IC2" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="TPS6120*" device="" technology="0" value="TPS61200"/>
 <part name="L4" library="SparkFun-Coils" deviceset="INDUCTOR" device="-0805-3.3UH" value="2.2µH"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1M"/>
@@ -6708,6 +6661,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R24" library="SparkFun-Resistors" deviceset="680OHM" device="-0603-1/10W-5%" value="47k"/>
 <part name="C44" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="2.2n"/>
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 </parts>
 <sheets>
 <sheet>
@@ -6740,9 +6694,6 @@ battery to ~3.8V</text>
 <instance part="R8" gate="G$1" x="251.46" y="53.34"/>
 <instance part="R9" gate="G$1" x="261.62" y="53.34"/>
 <instance part="R10" gate="G$1" x="215.9" y="17.78"/>
-<instance part="R13" gate="G$1" x="180.34" y="55.88"/>
-<instance part="R14" gate="G$1" x="180.34" y="68.58"/>
-<instance part="GND24" gate="G$1" x="190.5" y="63.5" rot="R90"/>
 <instance part="C28" gate="G$1" x="271.78" y="58.42" rot="R90"/>
 <instance part="U$4" gate="G$1" x="215.9" y="43.18"/>
 <instance part="GND27" gate="G$1" x="195.58" y="43.18" rot="R270"/>
@@ -6753,8 +6704,6 @@ battery to ~3.8V</text>
 <instance part="R35" gate="G$1" x="215.9" y="68.58"/>
 <instance part="C41" gate="G$1" x="271.78" y="45.72" rot="R270"/>
 <instance part="U$5" gate="G$1" x="304.8" y="50.8"/>
-<instance part="R11" gate="G$1" x="165.1" y="68.58"/>
-<instance part="R12" gate="G$1" x="165.1" y="55.88"/>
 <instance part="IC2" gate="G$1" x="-83.82" y="53.34"/>
 <instance part="L4" gate="G$1" x="-86.36" y="78.74" rot="R90"/>
 <instance part="R15" gate="G$1" x="-48.26" y="55.88" rot="R90"/>
@@ -6793,6 +6742,7 @@ battery to ~3.8V</text>
 <instance part="C43" gate="G$1" x="208.28" y="-15.24" rot="R180"/>
 <instance part="GND40" gate="1" x="208.28" y="-7.62" rot="R180"/>
 <instance part="J5" gate="J$1" x="55.88" y="17.78"/>
+<instance part="J4" gate="G$1" x="177.8" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -6874,15 +6824,6 @@ battery to ~3.8V</text>
 <wire x1="228.6" y1="35.56" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
 <junction x="228.6" y="40.64"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="55.88" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="63.5" x2="185.42" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="63.5" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
-<junction x="185.42" y="63.5"/>
-<pinref part="GND24" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="REF2"/>
@@ -7053,15 +6994,6 @@ battery to ~3.8V</text>
 <junction x="238.76" y="45.72"/>
 </segment>
 <segment>
-<wire x1="160.02" y1="55.88" x2="160.02" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="63.5" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="63.5" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
-<junction x="160.02" y="63.5"/>
-<label x="149.86" y="63.5" size="1.778" layer="95" rot="R180"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <wire x1="309.88" y1="60.96" x2="309.88" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="VCC+"/>
 <label x="309.88" y="68.58" size="1.778" layer="95" rot="R90"/>
@@ -7116,28 +7048,10 @@ battery to ~3.8V</text>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="68.58" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="68.58" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="68.58" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
-<junction x="172.72" y="68.58"/>
-<wire x1="172.72" y1="76.2" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="76.2" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="-IN1"/>
-<wire x1="200.66" y1="55.88" x2="205.74" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="55.88" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="48.26" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
-<junction x="172.72" y="55.88"/>
-<pinref part="U$4" gate="G$1" pin="+IN1"/>
-<wire x1="172.72" y1="48.26" x2="205.74" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="53.34" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="55.88" x2="205.74" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCHGR" class="0">
@@ -7430,6 +7344,14 @@ battery to ~3.8V</text>
 <junction x="86.36" y="0"/>
 <wire x1="63.5" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="15.24" x2="86.36" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="+IN1"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="48.26" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="48.26" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
