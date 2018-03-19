@@ -1,0 +1,7 @@
+For Board v2:
+
+Reshape RFID antenna [x]
+Add capacitor tuner
+Add forgotten resistor to resistor divider in linear voltage regulator [ ]
+Add support circuitry to linear voltage regulator [ ]
+Change TPS61200 to power-save mode or find replacement low current converter

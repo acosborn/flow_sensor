@@ -18,10 +18,10 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -32,20 +32,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1893,19 +1893,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="NDUC-13076" x="31.75" y="17.78" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="LIPO" library="SparkFun-Connectors" package="1X02_NO_SILK" value="" x="30.48" y="6.35" rot="R90"/>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="20k" x="37.465" y="8.89" rot="R90">
+<element name="R1" library="SparkFun-Resistors" package="0603" value="67k" x="37.465" y="8.89" rot="R90">
 <attribute name="PROD_ID" value="RES-09383" x="37.465" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R10" library="SparkFun-Resistors" package="0603" value="600" x="2.54" y="21.59" rot="R270">
 <attribute name="PROD_ID" value="RES-11228" x="2.54" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R15" library="SparkFun-Resistors" package="0603" value="1M" x="35.56" y="12.7">
+<element name="R15" library="SparkFun-Resistors" package="0603" value="1.6M" x="35.56" y="12.7">
 <attribute name="PROD_ID" value="RES-07868" x="35.56" y="12.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R16" library="SparkFun-Resistors" package="0603" value="180k" x="35.56" y="12.7" rot="MR0">
+<element name="R16" library="SparkFun-Resistors" package="0603" value="200k" x="35.56" y="12.7" rot="MR0">
 <attribute name="PROD_ID" value="RES-08788" x="35.56" y="12.7" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R17" library="SparkFun-Resistors" package="0603" value="180k" x="17.78" y="5.715" rot="MR90">
+<element name="R17" library="SparkFun-Resistors" package="0603" value="300k" x="17.78" y="5.715" rot="MR90">
 <attribute name="PROD_ID" value="RES-08788" x="17.78" y="5.715" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="0603" value="10k" x="33.02" y="22.86" rot="MR180">
@@ -1923,7 +1923,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R5" library="SparkFun-Resistors" package="0603" value="10k" x="24.765" y="19.05" rot="MR180">
 <attribute name="PROD_ID" value="RES-00824" x="24.765" y="19.05" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R6" library="SparkFun-Resistors" package="0603" value="1M" x="21.59" y="6.985" rot="R270">
+<element name="R6" library="SparkFun-Resistors" package="0603" value="1.2M" x="21.59" y="6.985" rot="R270">
 <attribute name="PROD_ID" value="RES-07868" x="21.59" y="6.985" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="0603" value="180k" x="21.59" y="6.985" rot="MR90">
@@ -1980,13 +1980,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="D1" library="SparkFun-LED" package="LED-0603" value="" x="3.175" y="6.985"/>
 <element name="D2" library="SparkFun-LED" package="LED-0603" value="" x="3.175" y="5.08"/>
 <element name="D3" library="SparkFun-LED" package="LED-0603" value="" x="3.175" y="3.175"/>
-<element name="R21" library="SparkFun-Resistors" package="0603" value="680" x="3.175" y="6.985" rot="MR180">
+<element name="R21" library="SparkFun-Resistors" package="0603" value="47" x="3.175" y="6.985" rot="MR180">
 <attribute name="PROD_ID" value="RES-09333" x="3.175" y="6.985" size="0.2032" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R22" library="SparkFun-Resistors" package="0603" value="680" x="3.175" y="5.08" rot="MR180">
+<element name="R22" library="SparkFun-Resistors" package="0603" value="47" x="3.175" y="5.08" rot="MR180">
 <attribute name="PROD_ID" value="RES-09333" x="3.175" y="5.08" size="0.2032" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R23" library="SparkFun-Resistors" package="0603" value="680" x="3.175" y="3.175" rot="MR180">
+<element name="R23" library="SparkFun-Resistors" package="0603" value="20" x="3.175" y="3.175" rot="MR180">
 <attribute name="PROD_ID" value="RES-09333" x="3.175" y="3.175" size="0.2032" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="J5" library="SparkFun-Connectors" package="1X03" value="455-1750-1-ND" x="30.48" y="2.54">
@@ -1999,6 +1999,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="CAP-00868" x="11.43" y="8.255" size="0.2032" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" package="1X02_NO_SILK" value="" x="8.89" y="38.1"/>
+<element name="R11" library="SparkFun-Resistors" package="0603" value="180k" x="2.54" y="-8.89">
+<attribute name="PROD_ID" value="RES-08788" x="2.54" y="-8.89" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2287,7 +2290,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="37.465" y1="8.04" x2="37.465" y2="7.62" width="0.2032" layer="1"/>
 <wire x1="37.465" y1="7.62" x2="38.1" y2="6.985" width="0.2032" layer="1"/>
 <via x="38.1" y="6.985" extent="1-16" drill="0.3"/>
-<polygon width="0.2032" layer="16" isolate="0.254">
+<polygon width="0.2032" layer="16" isolate="0.127">
 <vertex x="0" y="0"/>
 <vertex x="39.37" y="0"/>
 <vertex x="39.37" y="31.75"/>
@@ -2333,7 +2336,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.211646875" y1="31.745815625" x2="7.2136" y2="31.8516" width="0.2032" layer="1"/>
 <wire x1="7.211646875" y1="31.745815625" x2="7.89248125" y2="32.42665" width="0.2032" layer="1" curve="-90"/>
 <wire x1="7.89248125" y1="32.42665" x2="8.23645" y2="32.42665" width="0.2032" layer="1"/>
-<wire x1="27.52" y1="30.48" x2="24.13" y2="30.06" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CHG_STAT">
 <contactref element="U$1" pad="1"/>

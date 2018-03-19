@@ -6521,7 +6521,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$1" library="my_library" deviceset="MCP73832" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="4.7UF" device="0603" value="4.7uF"/>
 <part name="LIPO" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="20KOHM" device="-0603-1/10W-1%" value="20k"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="20KOHM" device="-0603-1/10W-1%" value="67k"/>
 <part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device="">
 <attribute name="CNAME" value="Communications"/>
 <attribute name="CREVISION" value=""/>
@@ -6559,7 +6559,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C24" library="SparkFun-Capacitors" deviceset="27PF" device="-0603-50V-5%" value="27pF"/>
 <part name="IC1" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="TPS6120*" device="" technology="0" value="TPS61200"/>
 <part name="L3" library="SparkFun-Coils" deviceset="INDUCTOR" device="-0805-3.3UH" value="2.2µH"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1M"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1.2M"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="180OHM" device="-0603-1/10W-1%" value="180k"/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device="">
 <attribute name="CNAME" value="Sensor"/>
@@ -6591,13 +6591,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$5" library="my_library" deviceset="LM321" device=""/>
 <part name="IC2" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="TPS6120*" device="" technology="0" value="TPS61200"/>
 <part name="L4" library="SparkFun-Coils" deviceset="INDUCTOR" device="-0805-3.3UH" value="2.2µH"/>
-<part name="R15" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1M"/>
-<part name="R16" library="SparkFun-Resistors" deviceset="180OHM" device="-0603-1/10W-1%" value="180k"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="1MOHM" device="-0603-1/4W-5%" value="1.6M"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="180OHM" device="-0603-1/10W-1%" value="200k"/>
 <part name="C29" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C30" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="C31" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="IC3" library="v-reg-micrel" library_urn="urn:adsk.eagle:library:408" deviceset="MIC5219BM5" device="" package3d_urn="urn:adsk.eagle:package:30272/1"/>
-<part name="R17" library="SparkFun-Resistors" deviceset="180OHM" device="-0603-1/10W-1%" value="180k"/>
+<part name="R17" library="SparkFun-Resistors" deviceset="180OHM" device="-0603-1/10W-1%" value="300k"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C32" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C33" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
@@ -6653,15 +6653,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="R21" library="SparkFun-Resistors" deviceset="680OHM" device="-0603-1/10W-5%" value="680"/>
-<part name="R22" library="SparkFun-Resistors" deviceset="680OHM" device="-0603-1/10W-5%" value="680"/>
-<part name="R23" library="SparkFun-Resistors" deviceset="680OHM" device="-0603-1/10W-5%" value="680"/>
+<part name="R21" library="SparkFun-Resistors" deviceset="680OHM" device="-0603-1/10W-5%" value="47"/>
+<part name="R22" library="SparkFun-Resistors" deviceset="680OHM" device="-0603-1/10W-5%" value="47"/>
+<part name="R23" library="SparkFun-Resistors" deviceset="680OHM" device="-0603-1/10W-5%" value="20"/>
 <part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
 <part name="R24" library="SparkFun-Resistors" deviceset="680OHM" device="-0603-1/10W-5%" value="47k"/>
 <part name="C44" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="2.2n"/>
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="180OHM" device="-0603-1/10W-1%" value="180k"/>
 </parts>
 <sheets>
 <sheet>
@@ -6743,6 +6744,7 @@ battery to ~3.8V</text>
 <instance part="GND40" gate="1" x="208.28" y="-7.62" rot="R180"/>
 <instance part="J5" gate="J$1" x="55.88" y="17.78"/>
 <instance part="J4" gate="G$1" x="177.8" y="50.8"/>
+<instance part="R11" gate="G$1" x="81.28" y="-17.78" rot="R90"/>
 </instances>
 <busses>
 </busses>
