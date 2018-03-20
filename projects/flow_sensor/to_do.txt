@@ -3,5 +3,7 @@ For Board v2:
 Reshape RFID antenna [x]
 Add capacitor tuner
 Add forgotten resistor to resistor divider in linear voltage regulator [ ]
+	Alternatively replace regulator entirely with S-1313D33 [ ]
 Add support circuitry to linear voltage regulator [ ]
-Change TPS61200 to power-save mode or find replacement low current converter
+Change TPS61200 to power-save mode or find replacement low current converter [ ]
+Swap MSP430FR5994 out for MSP430F5529 [ ]
