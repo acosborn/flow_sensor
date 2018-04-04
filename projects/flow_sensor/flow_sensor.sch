@@ -1075,6 +1075,49 @@ Source: http://v4.cypress.com/cfuploads/img/products/cywusb6934.pdf</description
 <vertex x="0.7" y="0.8"/>
 </polygon>
 </package>
+<package name="DFN8-2X3">
+<description>&lt;b&gt;8-Lead Plastic Dual Flat No Lead Package (MC)&lt;/b&gt; 2x3x0.9 mm Body (DFN) - Saw Singulated&lt;p&gt;
+Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
+<smd name="1" x="-1.325" y="0.75" dx="0.7" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-1.325" y="0.25" dx="0.7" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-1.325" y="-0.25" dx="0.7" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-1.325" y="-0.75" dx="0.7" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="5" x="1.325" y="-0.75" dx="0.7" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="6" x="1.325" y="-0.25" dx="0.7" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="7" x="1.325" y="0.25" dx="0.7" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="8" x="1.325" y="0.75" dx="0.7" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="EXP" x="0" y="0" dx="1.7" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<text x="-1.532" y="1.248" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.586" y="-1.856" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.725" y1="0.55" x2="-0.925" y2="0.95" layer="29"/>
+<rectangle x1="-1.65" y1="0.6" x2="-1" y2="0.9" layer="31"/>
+<rectangle x1="-1.725" y1="0.05" x2="-0.925" y2="0.45" layer="29"/>
+<rectangle x1="-1.65" y1="0.1" x2="-1" y2="0.4" layer="31"/>
+<rectangle x1="-1.725" y1="-0.45" x2="-0.925" y2="-0.05" layer="29"/>
+<rectangle x1="-1.65" y1="-0.4" x2="-1" y2="-0.1" layer="31"/>
+<rectangle x1="-1.725" y1="-0.95" x2="-0.925" y2="-0.55" layer="29"/>
+<rectangle x1="-1.65" y1="-0.9" x2="-1" y2="-0.6" layer="31"/>
+<rectangle x1="0.925" y1="-0.95" x2="1.725" y2="-0.55" layer="29" rot="R180"/>
+<rectangle x1="1" y1="-0.9" x2="1.65" y2="-0.6" layer="31" rot="R180"/>
+<rectangle x1="0.925" y1="-0.45" x2="1.725" y2="-0.05" layer="29" rot="R180"/>
+<rectangle x1="1" y1="-0.4" x2="1.65" y2="-0.1" layer="31" rot="R180"/>
+<rectangle x1="0.925" y1="0.05" x2="1.725" y2="0.45" layer="29" rot="R180"/>
+<rectangle x1="1" y1="0.1" x2="1.65" y2="0.4" layer="31" rot="R180"/>
+<rectangle x1="0.925" y1="0.55" x2="1.725" y2="0.95" layer="29" rot="R180"/>
+<rectangle x1="1" y1="0.6" x2="1.65" y2="0.9" layer="31" rot="R180"/>
+<wire x1="-1.5" y1="-1" x2="-1.5" y2="1" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1" x2="1.5" y2="1" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1" x2="1.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1" x2="-1.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<circle x="-1.75" y="1.25" radius="0.145771875" width="0.127" layer="21"/>
+<circle x="-1.27" y="0.762" radius="0.127" width="0.127" layer="51"/>
+<rectangle x1="-0.125" y1="-0.825" x2="0.125" y2="0.825" layer="31"/>
+<rectangle x1="-0.2" y1="-0.9" x2="0.2" y2="0.9" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TRF7970A">
@@ -1354,6 +1397,25 @@ Source: http://v4.cypress.com/cfuploads/img/products/cywusb6934.pdf</description
 <text x="7.62" y="6.604" size="2.54" layer="95">&gt;NAME</text>
 <text x="8.128" y="-8.128" size="2.54" layer="95">&gt;VALUE</text>
 </symbol>
+<symbol name="RMC25C256C">
+<wire x1="11.43" y1="7.62" x2="-11.43" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="7.62" x2="-11.43" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="-7.62" x2="11.43" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-7.62" x2="11.43" y2="7.62" width="0.254" layer="94"/>
+<pin name="VCC" x="-7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="GND" x="-2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="CS" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="SCK" x="2.54" y="12.7" length="middle" rot="R270"/>
+<pin name="SDO" x="5.08" y="12.7" length="middle" rot="R270"/>
+<pin name="SDI" x="7.62" y="12.7" length="middle" rot="R270"/>
+<pin name="HOLD" x="-5.08" y="12.7" length="middle" rot="R270"/>
+<pin name="WP" x="-7.62" y="12.7" length="middle" rot="R270"/>
+<wire x1="-8.89" y1="1.27" x2="-8.89" y2="5.08" width="0.254" layer="95"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="5.08" width="0.254" layer="95"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="5.08" width="0.254" layer="95"/>
+<text x="8.89" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="8.89" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TRF7970A">
@@ -1594,6 +1656,28 @@ Digikey: https://www.digikey.com/product-detail/en/stmicroelectronics/LMV321LICT
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="VIN" pad="1"/>
 <connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RM25C256C">
+<gates>
+<gate name="G$1" symbol="RMC25C256C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN8-2X3">
+<connects>
+<connect gate="G$1" pin="CS" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="HOLD" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SDI" pad="5"/>
+<connect gate="G$1" pin="SDO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="WP" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6773,6 +6857,9 @@ Rev1.0 06/2010    For F552X where X is 1,5,7,9</description>
 <part name="U$8" library="my_library" deviceset="LTC1517-5" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C37" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="U$10" library="my_library" deviceset="RM25C256C" device=""/>
+<part name="C29" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7214,7 +7301,7 @@ MAX1726EUK33</text>
 <label x="-93.98" y="40.64" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="SCLK" class="0">
+<net name="SCK" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="SCLK"/>
 <wire x1="180.34" y1="-25.4" x2="172.72" y2="-25.4" width="0.1524" layer="91"/>
@@ -7381,6 +7468,9 @@ MAX1726EUK33</text>
 <instance part="C44" gate="G$1" x="203.2" y="15.24" rot="R180"/>
 <instance part="GND42" gate="1" x="203.2" y="5.08"/>
 <instance part="U$3" gate="G$1" x="388.62" y="12.7"/>
+<instance part="U$10" gate="G$1" x="193.04" y="-55.88"/>
+<instance part="C29" gate="G$1" x="190.5" y="-78.74" rot="R90"/>
+<instance part="GND18" gate="1" x="193.04" y="-86.36"/>
 </instances>
 <busses>
 </busses>
@@ -7667,6 +7757,15 @@ MAX1726EUK33</text>
 <pinref part="C44" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="7.62" x2="203.2" y2="10.16" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="C29" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="-83.82" x2="193.04" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="GND"/>
+<wire x1="190.5" y1="-68.58" x2="193.04" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-68.58" x2="193.04" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="193.04" y="-78.74"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -7756,6 +7855,14 @@ MAX1726EUK33</text>
 <wire x1="203.2" y1="33.02" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
 <label x="203.2" y="40.64" size="1.778" layer="95" rot="R90"/>
 <pinref part="R24" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="VCC"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="-68.58" x2="185.42" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-78.74" x2="185.42" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="185.42" y="-78.74"/>
+<label x="185.42" y="-86.36" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -7902,6 +8009,11 @@ MAX1726EUK33</text>
 <label x="325.12" y="25.4" size="1.778" layer="95"/>
 <pinref part="U$9" gate="G$1" pin="(UCB0SDA/UCB0SIMO)P1.6"/>
 </segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="SDI"/>
+<wire x1="200.66" y1="-43.18" x2="200.66" y2="-35.56" width="0.1524" layer="91"/>
+<label x="200.66" y="-35.56" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -7915,18 +8027,10 @@ MAX1726EUK33</text>
 <wire x1="-132.08" y1="38.1" x2="-132.08" y2="53.34" width="0.1524" layer="91"/>
 <label x="-132.08" y="53.34" size="1.6764" layer="95" rot="R90"/>
 </segment>
-</net>
-<net name="SCLK" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="DATA_CLK"/>
-<wire x1="-86.36" y1="43.18" x2="-121.92" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-121.92" y1="43.18" x2="-121.92" y2="53.34" width="0.1524" layer="91"/>
-<label x="-121.92" y="53.34" size="1.6764" layer="95" rot="R90"/>
-</segment>
-<segment>
-<wire x1="317.5" y1="10.16" x2="325.12" y2="10.16" width="0.1524" layer="91"/>
-<label x="325.12" y="10.16" size="1.778" layer="95"/>
-<pinref part="U$9" gate="G$1" pin="(UCB0CLK)P2.2"/>
+<pinref part="U$10" gate="G$1" pin="SDO"/>
+<wire x1="198.12" y1="-43.18" x2="198.12" y2="-35.56" width="0.1524" layer="91"/>
+<label x="198.12" y="-35.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SENSOR_OUT" class="0">
@@ -8056,6 +8160,24 @@ MAX1726EUK33</text>
 <wire x1="248.92" y1="-22.86" x2="248.92" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="-20.32" x2="246.38" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<pinref part="U$10" gate="G$1" pin="SCK"/>
+<wire x1="195.58" y1="-43.18" x2="195.58" y2="-35.56" width="0.1524" layer="91"/>
+<label x="195.58" y="-35.56" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="DATA_CLK"/>
+<wire x1="-86.36" y1="43.18" x2="-121.92" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="43.18" x2="-121.92" y2="53.34" width="0.1524" layer="91"/>
+<label x="-121.92" y="53.34" size="1.6764" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="317.5" y1="10.16" x2="325.12" y2="10.16" width="0.1524" layer="91"/>
+<label x="325.12" y="10.16" size="1.778" layer="95"/>
+<pinref part="U$9" gate="G$1" pin="(UCB0CLK)P2.2"/>
 </segment>
 </net>
 </nets>
