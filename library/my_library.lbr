@@ -2359,6 +2359,20 @@ Source: www.allegromicro.com .. 3901.pdf</description>
 <text x="2.54" y="10.922" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="MAX1726">
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="IN" x="-12.7" y="5.08" length="middle"/>
+<pin name="GND" x="-12.7" y="-5.08" length="middle"/>
+<pin name="OUT" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="FB" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="SHDN" x="0" y="12.7" length="middle" rot="R270"/>
+<wire x1="-1.27" y1="-0.508" x2="-1.27" y2="5.08" width="0.254" layer="95"/>
+<text x="2.286" y="8.89" size="2.54" layer="95">&gt;NAME</text>
+<text x="2.286" y="-10.668" size="2.54" layer="95">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TRF7970A">
@@ -2842,6 +2856,25 @@ Rev1.0 06/2010    For F552X where X is 1,5,7,9</description>
 <connect gate="G$1" pin="NF" pad="5"/>
 <connect gate="G$1" pin="VIN" pad="6"/>
 <connect gate="G$1" pin="VSS" pad="2 PAD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX1726">
+<gates>
+<gate name="G$1" symbol="MAX1726" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="SHDN" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
