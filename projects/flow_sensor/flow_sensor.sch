@@ -1008,22 +1008,75 @@ Source: http://v4.cypress.com/cfuploads/img/products/cywusb6934.pdf</description
 <rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" layer="29"/>
 <rectangle x1="-2.46" y1="-2.46" x2="2.46" y2="2.46" layer="31"/>
 </package>
+<package name="DFN6-1.8X2.0">
+<wire x1="-0.9" y1="1" x2="0.9" y2="1" width="0.1016" layer="51"/>
+<wire x1="0.9" y1="1" x2="0.9" y2="-1" width="0.1016" layer="51"/>
+<wire x1="0.9" y1="-1" x2="-0.9" y2="-1" width="0.1016" layer="51"/>
+<wire x1="-0.9" y1="-1" x2="-0.9" y2="1" width="0.1016" layer="51"/>
+<circle x="-0.6" y="-0.7" radius="0.1" width="0.1016" layer="51"/>
+<smd name="PAD" x="0" y="0" dx="1.5" dy="1.1" layer="1" cream="no"/>
+<smd name="5" x="0" y="0.9375" dx="0.35" dy="0.375" layer="1" cream="no"/>
+<smd name="4" x="0.55" y="0.9375" dx="0.35" dy="0.375" layer="1" cream="no"/>
+<smd name="6" x="-0.55" y="0.9375" dx="0.35" dy="0.375" layer="1" cream="no"/>
+<smd name="2" x="0" y="-0.9375" dx="0.35" dy="0.375" layer="1" cream="no"/>
+<smd name="3" x="0.55" y="-0.9375" dx="0.35" dy="0.375" layer="1" cream="no"/>
+<smd name="1" x="-0.55" y="-0.9375" dx="0.35" dy="0.375" layer="1" cream="no"/>
+<rectangle x1="0.4" y1="-1.1" x2="0.7" y2="-0.8" layer="31"/>
+<rectangle x1="0.4" y1="0.8" x2="0.7" y2="1.1" layer="31"/>
+<rectangle x1="-0.15" y1="0.8" x2="0.15" y2="1.1" layer="31"/>
+<rectangle x1="-0.7" y1="0.8" x2="-0.4" y2="1.1" layer="31"/>
+<rectangle x1="-0.7" y1="-1.1" x2="-0.4" y2="-0.8" layer="31"/>
+<rectangle x1="-0.15" y1="-1.1" x2="0.15" y2="-0.8" layer="31"/>
+<rectangle x1="-0.7" y1="-0.45" x2="-0.25" y2="0.45" layer="31"/>
+<rectangle x1="0.25" y1="-0.45" x2="0.7" y2="0.45" layer="31"/>
+<wire x1="-0.8" y1="1" x2="-0.9" y2="1" width="0.1016" layer="21"/>
+<wire x1="-0.9" y1="1" x2="-0.9" y2="-1" width="0.1016" layer="21"/>
+<wire x1="-0.9" y1="-1" x2="-0.8" y2="-1" width="0.1016" layer="21"/>
+<wire x1="0.8" y1="-1" x2="0.9" y2="-1" width="0.1016" layer="21"/>
+<wire x1="0.9" y1="-1" x2="0.9" y2="1" width="0.1016" layer="21"/>
+<wire x1="0.9" y1="1" x2="0.8" y2="1" width="0.1016" layer="21"/>
+<circle x="-1" y="-1.2" radius="0.111803125" width="0.1016" layer="21"/>
+<text x="-1" y="0.1" size="0.2" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.2" y="0.1" size="0.2" layer="27" rot="R90">&gt;VALUE</text>
+<polygon width="0" layer="51">
+<vertex x="0.15" y="-0.75"/>
+<vertex x="-0.15" y="-0.75"/>
+<vertex x="-0.15" y="-0.95"/>
+<vertex x="0.15" y="-0.95"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="0.7" y="-0.75"/>
+<vertex x="0.4" y="-0.75"/>
+<vertex x="0.4" y="-0.95"/>
+<vertex x="0.7" y="-0.95"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-0.4" y="-0.75"/>
+<vertex x="-0.7" y="-0.75"/>
+<vertex x="-0.7" y="-0.95"/>
+<vertex x="-0.4" y="-0.95"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="-0.4" y="1"/>
+<vertex x="-0.7" y="1"/>
+<vertex x="-0.7" y="0.8"/>
+<vertex x="-0.4" y="0.8"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="0.15" y="1"/>
+<vertex x="-0.15" y="1"/>
+<vertex x="-0.15" y="0.8"/>
+<vertex x="0.15" y="0.8"/>
+</polygon>
+<polygon width="0" layer="51">
+<vertex x="0.7" y="1"/>
+<vertex x="0.4" y="1"/>
+<vertex x="0.4" y="0.8"/>
+<vertex x="0.7" y="0.8"/>
+</polygon>
+</package>
 </packages>
 <symbols>
-<symbol name="MCP73832">
-<description>500mA LiPo linear charge management controller</description>
-<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
-<pin name="STAT" x="-15.24" y="5.08" length="middle"/>
-<pin name="VSS" x="-15.24" y="0" length="middle"/>
-<pin name="VBAT" x="-15.24" y="-5.08" length="middle"/>
-<pin name="VDD" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="PROG" x="15.24" y="5.08" length="middle" rot="R180"/>
-<text x="-10.16" y="8.89" size="1.778" layer="94">&gt;Name</text>
-<text x="-10.16" y="-10.16" size="1.778" layer="94">&gt;Value</text>
-</symbol>
 <symbol name="TRF7970A">
 <description>Multi-Protocol Fully Integrated 13.56-MHz NFC / RFID Transceiver IC</description>
 <text x="-17.78" y="27.94" size="2.54" layer="94">&gt;Name</text>
@@ -1260,28 +1313,22 @@ Source: http://v4.cypress.com/cfuploads/img/products/cywusb6934.pdf</description
 <text x="4.445" y="0.635" size="1.016" layer="96" rot="R180">GND</text>
 <text x="4.445" y="5.715" size="1.016" layer="96" rot="R180">VDD</text>
 </symbol>
+<symbol name="XC6805">
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<pin name="VIN" x="-12.7" y="5.08" length="middle"/>
+<pin name="CSO" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="ISET" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="VSS" x="0" y="-15.24" length="middle" rot="R90"/>
+<pin name="BAT" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="NF" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<text x="2.54" y="10.922" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCP73832">
-<description>500mA LiPo linear charge management controller</description>
-<gates>
-<gate name="G$1" symbol="MCP73832" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23-5">
-<connects>
-<connect gate="G$1" pin="PROG" pad="5"/>
-<connect gate="G$1" pin="STAT" pad="1"/>
-<connect gate="G$1" pin="VBAT" pad="3"/>
-<connect gate="G$1" pin="VDD" pad="4"/>
-<connect gate="G$1" pin="VSS" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TRF7970A">
 <description>Multi-Protocol Fully Integrated 13.56-MHz NFC / RFID Transceiver IC</description>
 <gates>
@@ -1460,6 +1507,27 @@ Digikey: https://www.digikey.com/product-detail/en/stmicroelectronics/LMV321LICT
 <connect gate="G$1" pin="MOSI" pad="3"/>
 <connect gate="G$1" pin="SCLK" pad="1"/>
 <connect gate="G$1" pin="VDD" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XC6805">
+<description>Single-Cell Li-ion/Li-polymer Linear Charger IC - Vin:4.5-6V - Iq:100uA - Icc: 5-40mA - Vcv: 4.2V, 4.05V(at high temperature)</description>
+<gates>
+<gate name="G$1" symbol="XC6805" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN6-1.8X2.0">
+<connects>
+<connect gate="G$1" pin="BAT" pad="1"/>
+<connect gate="G$1" pin="CSO" pad="3"/>
+<connect gate="G$1" pin="ISET" pad="4"/>
+<connect gate="G$1" pin="NF" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="6"/>
+<connect gate="G$1" pin="VSS" pad="2 PAD"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6962,10 +7030,7 @@ Rev1.0 06/2010    For F552X where X is 1,5,7,9</description>
 <attribute name="CREVISION" value=""/>
 <attribute name="DESIGNER" value="A Osborn, M Silvern, N Yokley"/>
 </part>
-<part name="U$1" library="my_library" deviceset="MCP73832" device=""/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="4.7UF" device="0603" value="4.7uF"/>
 <part name="LIPO" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="20KOHM" device="-0603-1/10W-1%" value="67k"/>
 <part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device="">
 <attribute name="CNAME" value="Communications"/>
 <attribute name="CREVISION" value=""/>
@@ -7082,8 +7147,6 @@ Rev1.0 06/2010    For F552X where X is 1,5,7,9</description>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -7108,6 +7171,16 @@ Rev1.0 06/2010    For F552X where X is 1,5,7,9</description>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="180OHM" device="-0603-1/10W-1%" value="180k"/>
 <part name="U$3" library="TI_MSP430_v16" deviceset="F552X---PN80" device=""/>
+<part name="U$7" library="my_library" deviceset="XC6805" device=""/>
+<part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R12" library="SparkFun-Resistors" deviceset="20KOHM" device="-0603-1/10W-1%" value="27k"/>
+<part name="GND43" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C45" library="SparkFun-Capacitors" deviceset="4.7UF" device="0603" value="1uF"/>
+<part name="GND44" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C46" library="SparkFun-Capacitors" deviceset="4.7UF" device="0603" value="1uF"/>
+<part name="GND45" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R13" library="SparkFun-Resistors" deviceset="20KOHM" device="-0603-1/10W-1%" value="56k"/>
+<part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7124,10 +7197,7 @@ battery to ~3.8V</text>
 <attribute name="DESIGNER" x="-139.7" y="-91.44" size="1.778" layer="96" display="off"/>
 <attribute name="CREVISION" x="-139.7" y="-91.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="45.72" y="58.42" rot="R180"/>
-<instance part="C2" gate="G$1" x="76.2" y="58.42"/>
-<instance part="LIPO" gate="G$1" x="93.98" y="63.5" rot="R180"/>
-<instance part="R1" gate="G$1" x="30.48" y="45.72" rot="R90"/>
+<instance part="LIPO" gate="G$1" x="93.98" y="55.88" rot="R180"/>
 <instance part="IC1" gate="G$1" x="17.78" y="-10.16"/>
 <instance part="L3" gate="G$1" x="15.24" y="15.24" rot="R90"/>
 <instance part="R6" gate="G$1" x="53.34" y="-7.62" rot="R90"/>
@@ -7175,8 +7245,6 @@ battery to ~3.8V</text>
 <instance part="GND20" gate="1" x="63.5" y="-33.02"/>
 <instance part="GND31" gate="1" x="101.6" y="-27.94"/>
 <instance part="GND32" gate="1" x="88.9" y="-27.94"/>
-<instance part="GND1" gate="1" x="76.2" y="48.26"/>
-<instance part="GND2" gate="1" x="30.48" y="35.56"/>
 <instance part="GND21" gate="1" x="233.68" y="40.64" rot="R90"/>
 <instance part="GND25" gate="1" x="279.4" y="58.42" rot="R90"/>
 <instance part="GND22" gate="1" x="325.12" y="66.04" rot="R90"/>
@@ -7190,29 +7258,21 @@ battery to ~3.8V</text>
 <instance part="J5" gate="J$1" x="55.88" y="17.78"/>
 <instance part="J4" gate="G$1" x="177.8" y="50.8"/>
 <instance part="R11" gate="G$1" x="81.28" y="-17.78" rot="R90"/>
+<instance part="U$7" gate="G$1" x="40.64" y="58.42"/>
+<instance part="GND24" gate="1" x="40.64" y="38.1"/>
+<instance part="R12" gate="G$1" x="60.96" y="60.96" rot="R180"/>
+<instance part="GND43" gate="1" x="71.12" y="60.96" rot="R90"/>
+<instance part="C45" gate="G$1" x="60.96" y="50.8" rot="R180"/>
+<instance part="GND44" gate="1" x="60.96" y="40.64"/>
+<instance part="C46" gate="G$1" x="22.86" y="50.8" rot="R180"/>
+<instance part="GND45" gate="1" x="22.86" y="40.64"/>
+<instance part="R13" gate="G$1" x="60.96" y="66.04" rot="R180"/>
+<instance part="GND1" gate="1" x="86.36" y="40.64"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="55.88" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="LIPO" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="60.96" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
-<junction x="76.2" y="50.8"/>
-<pinref part="U$1" gate="G$1" pin="VSS"/>
-<wire x1="60.96" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="58.42" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="38.1" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-</segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="-30.48" x2="53.34" y2="-27.94" width="0.1524" layer="91"/>
@@ -7370,25 +7430,43 @@ battery to ~3.8V</text>
 <pinref part="GND40" gate="1" pin="GND"/>
 <wire x1="208.28" y1="-12.7" x2="208.28" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="VSS"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="40.64" y1="40.64" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="GND43" gate="1" pin="GND"/>
+<wire x1="68.58" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND44" gate="1" pin="GND"/>
+<pinref part="C45" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="43.18" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C46" gate="G$1" pin="1"/>
+<pinref part="GND45" gate="1" pin="GND"/>
+<wire x1="22.86" y1="43.18" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LIPO" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="53.34" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="CHG_STAT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="STAT"/>
-<wire x1="60.96" y1="53.34" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
-<label x="60.96" y="48.26" size="1.778" layer="95" rot="R270"/>
+<pinref part="U$7" gate="G$1" pin="CSO"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="66.04" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="66.04" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+<junction x="55.88" y="66.04"/>
+<label x="55.88" y="71.12" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="VBAT"/>
-<wire x1="60.96" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="LIPO" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
-<junction x="76.2" y="63.5"/>
-<wire x1="76.2" y1="63.5" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
-<label x="76.2" y="68.58" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VIN"/>
 <wire x1="5.08" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="91"/>
@@ -7410,12 +7488,18 @@ battery to ~3.8V</text>
 <pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="0" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="N$2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PROG"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="50.8" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="BAT"/>
+<wire x1="53.34" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C45" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="55.88" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
+<junction x="60.96" y="55.88"/>
+<label x="78.74" y="63.5" size="1.778" layer="95"/>
+<pinref part="LIPO" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="55.88" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
+<junction x="78.74" y="55.88"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -7503,11 +7587,6 @@ battery to ~3.8V</text>
 </net>
 <net name="VCHGR" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
-<label x="12.7" y="63.5" size="1.778" layer="95" rot="R180"/>
-<wire x1="12.7" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="VOUT"/>
 <wire x1="-71.12" y1="63.5" x2="-48.26" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="63.5" x2="-38.1" y2="63.5" width="0.1524" layer="91"/>
@@ -7526,6 +7605,19 @@ battery to ~3.8V</text>
 <pinref part="J5" gate="J$1" pin="3"/>
 <wire x1="63.5" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
 <label x="71.12" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="7.62" y="63.5" size="1.778" layer="95" rot="R180"/>
+<pinref part="C46" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="53.34" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="VIN"/>
+<wire x1="22.86" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<junction x="22.86" y="63.5"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="66.04" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="78.74" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -7799,6 +7891,13 @@ battery to ~3.8V</text>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="48.26" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="48.26" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="ISET"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
