@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -818,6 +818,18 @@ Source: www.irf.com .. ir2520.pdf</description>
 <wire x1="2.413" y1="1.905" x2="2.413" y2="-1.905" width="0.2032" layer="21"/>
 <wire x1="2.413" y1="-1.905" x2="2.286" y2="-1.905" width="0.2032" layer="21"/>
 <circle x="-1.778" y="-0.889" radius="0.359209375" width="0.2032" layer="21"/>
+</package>
+<package name="CRYSTAL-3.2X2.5">
+<smd name="2" x="1.95" y="0" dx="1.5" dy="2.7" layer="1"/>
+<smd name="1" x="-1.95" y="0" dx="1.5" dy="2.7" layer="1"/>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-1.2" y1="1.25" x2="1.2" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-1.25" x2="1.2" y2="-1.25" width="0.127" layer="21"/>
+<text x="-1.55" y="1.5" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.65" y="-2.1" size="0.6096" layer="25">&gt;VALUE</text>
 </package>
 <package name="CRYSTAL-3.2X1.5">
 <smd name="P$1" x="-1.25" y="0" dx="1.1" dy="1.9" layer="1" rot="R180"/>
@@ -1739,6 +1751,22 @@ Rev1.0 06/2010    For F552X where X is 1,5,7,9</description>
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRYSTAL-3.2X2.5" prefix="Y" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CRYSTAL-3.2X2.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6487,7 +6515,7 @@ naming: grid - package width</description>
 <part name="C36" library="my_library" deviceset="TZY2_TRIM_CAP" device="" value="50pF"/>
 <part name="R9" library="my_library" deviceset="PVG3G_TRIM_POT" device="" value="1k"/>
 <part name="R10" library="my_library" deviceset="PVG3G_TRIM_POT" device="" value="1k"/>
-<part name="Y3" library="my_library" deviceset="CRYSTAL-3.2X1.5" device="" value="4MHz"/>
+<part name="Y3" library="my_library" deviceset="CRYSTAL-3.2X2.5" device="" value="8MHz"/>
 <part name="C47" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="47pF"/>
 <part name="C46" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="47pF"/>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -7469,20 +7497,10 @@ MAX1726EUK33</text>
 <pinref part="U7" gate="G$1" pin="VDD_I/O"/>
 <wire x1="-88.9" y1="5.08" x2="-86.36" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-88.9" y="5.08"/>
-<wire x1="-88.9" y1="5.08" x2="-91.44" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="5.08" x2="-99.06" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="5.08" x2="-101.6" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="5.08" x2="-101.6" y2="5.08" width="0.1524" layer="91"/>
 <label x="-101.6" y="10.16" size="1.778" layer="95" rot="R90"/>
 <wire x1="-101.6" y1="5.08" x2="-101.6" y2="10.16" width="0.1524" layer="91"/>
 <junction x="-101.6" y="5.08"/>
-<pinref part="U7" gate="G$1" pin="I/O_2"/>
-<wire x1="-99.06" y1="17.78" x2="-86.36" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="17.78" x2="-99.06" y2="5.08" width="0.1524" layer="91"/>
-<junction x="-99.06" y="5.08"/>
-<pinref part="U7" gate="G$1" pin="I/O_1"/>
-<wire x1="-86.36" y1="15.24" x2="-91.44" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-91.44" y1="15.24" x2="-91.44" y2="5.08" width="0.1524" layer="91"/>
-<junction x="-91.44" y="5.08"/>
 <wire x1="-109.22" y1="-20.32" x2="-101.6" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="-20.32" x2="-101.6" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-101.6" y="-20.32"/>
@@ -7513,8 +7531,18 @@ MAX1726EUK33</text>
 <junction x="-109.22" y="20.32"/>
 <wire x1="-109.22" y1="20.32" x2="-109.22" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="VIN"/>
-<wire x1="-86.36" y1="20.32" x2="-109.22" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="20.32" x2="-91.44" y2="20.32" width="0.1524" layer="91"/>
 <label x="-109.22" y="25.4" size="1.778" layer="95"/>
+<pinref part="U7" gate="G$1" pin="I/O_1"/>
+<wire x1="-91.44" y1="20.32" x2="-93.98" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="20.32" x2="-109.22" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="15.24" x2="-93.98" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="15.24" x2="-93.98" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-93.98" y="20.32"/>
+<pinref part="U7" gate="G$1" pin="I/O_2"/>
+<wire x1="-86.36" y1="17.78" x2="-91.44" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-91.44" y1="17.78" x2="-91.44" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-91.44" y="20.32"/>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="VCC"/>
@@ -7862,33 +7890,9 @@ MAX1726EUK33</text>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<wire x1="299.72" y1="17.78" x2="284.48" y2="17.78" width="0.1524" layer="91"/>
-<label x="284.48" y="17.78" size="1.778" layer="95" rot="R180"/>
-<pinref part="U9" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="U9" gate="G$1" pin="79"/>
-<wire x1="320.04" y1="35.56" x2="320.04" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="45.72" x2="292.1" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="D2" gate="G$1" pin="A"/>
-<pinref part="U9" gate="G$1" pin="78"/>
-<wire x1="322.58" y1="35.56" x2="322.58" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="50.8" x2="294.64" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="325.12" y1="50.8" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
+<label x="325.12" y="50.8" size="1.778" layer="95" rot="R90"/>
 <pinref part="U9" gate="G$1" pin="77"/>
-<wire x1="297.18" y1="55.88" x2="325.12" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="55.88" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -7978,6 +7982,36 @@ MAX1726EUK33</text>
 <pinref part="C50" gate="G$1" pin="2"/>
 <pinref part="U9" gate="G$1" pin="20"/>
 <wire x1="299.72" y1="-35.56" x2="299.72" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D3" class="0">
+<segment>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="297.18" y1="55.88" x2="302.26" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="72"/>
+<wire x1="337.82" y1="35.56" x2="337.82" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D2" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="294.64" y1="50.8" x2="302.26" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="73"/>
+<wire x1="335.28" y1="35.56" x2="335.28" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D1" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="292.1" y1="45.72" x2="302.26" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U9" gate="G$1" pin="74"/>
+<wire x1="332.74" y1="35.56" x2="332.74" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
