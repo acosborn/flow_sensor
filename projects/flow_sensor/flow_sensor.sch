@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6046,6 +6046,16 @@ MAX1726EUK33</text>
 <wire x1="-86.36" y1="48.26" x2="-109.22" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-109.22" y1="48.26" x2="-109.22" y2="53.34" width="0.1524" layer="91"/>
 <label x="-109.22" y="53.34" size="1.6764" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="HOLD"/>
+<wire x1="187.96" y1="-43.18" x2="187.96" y2="-30.48" width="0.1524" layer="91"/>
+<label x="187.96" y="-22.86" size="1.778" layer="95" rot="R90"/>
+<pinref part="U8" gate="G$1" pin="WP"/>
+<wire x1="187.96" y1="-30.48" x2="187.96" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-43.18" x2="185.42" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-30.48" x2="187.96" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="187.96" y="-30.48"/>
 </segment>
 </net>
 <net name="N$8" class="0">
