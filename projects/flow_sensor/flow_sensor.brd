@@ -1829,7 +1829,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="27.52" y1="4.445" x2="29.425" y2="2.54" width="0.254" layer="16"/>
 <wire x1="30.226" y1="2.54" x2="30.9372" y2="3.2512" width="0.254" layer="16"/>
 <wire x1="29.425" y1="2.54" x2="30.226" y2="2.54" width="0.254" layer="16"/>
-<wire x1="25.345" y1="17.03" x2="25.345" y2="16.6074" width="0.2032" layer="1"/>
+<wire x1="25.345" y1="16.6074" x2="25.345" y2="17.03" width="0.2032" layer="1"/>
 <wire x1="25.345" y1="16.6074" x2="25.0444" y2="16.3068" width="0.2032" layer="1"/>
 <wire x1="25.0444" y1="16.3068" x2="24.1418" y2="16.3068" width="0.2032" layer="1"/>
 <wire x1="24.1418" y1="16.3068" x2="24.13" y2="16.295" width="0.2032" layer="1"/>
@@ -1906,15 +1906,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U8" pad="7"/>
 <contactref element="U8" pad="3"/>
 <wire x1="25.345" y1="17.03" x2="25.345" y2="17.53" width="0.2032" layer="1"/>
-<wire x1="27.995" y1="18.03" x2="27.899" y2="17.934" width="0.2032" layer="1"/>
-<wire x1="27.899" y1="17.934" x2="27.5397875" y2="17.934" width="0.2032" layer="1"/>
-<wire x1="27.5397875" y1="17.934" x2="27.2386" y2="17.6328125" width="0.2032" layer="1"/>
-<wire x1="27.2386" y1="17.6328125" x2="27.2386" y2="17.145" width="0.2032" layer="1"/>
+<wire x1="27.2386" y1="17.145" x2="27.2386" y2="17.6328125" width="0.2032" layer="1"/>
 <via x="27.2386" y="17.145" extent="1-16" drill="0.254"/>
-<wire x1="27.2386" y1="17.145" x2="26.035" y2="17.145" width="0.2032" layer="16"/>
+<wire x1="27.2386" y1="17.6328125" x2="27.6357875" y2="18.03" width="0.2032" layer="1"/>
+<wire x1="27.6357875" y1="18.03" x2="27.995" y2="18.03" width="0.2032" layer="1"/>
+<wire x1="25.345" y1="17.03" x2="25.92" y2="17.03" width="0.2032" layer="1"/>
+<wire x1="25.92" y1="17.03" x2="26.035" y2="17.145" width="0.2032" layer="1"/>
 <via x="26.035" y="17.145" extent="1-16" drill="0.254"/>
-<wire x1="26.035" y1="17.145" x2="25.92" y2="17.03" width="0.2032" layer="1"/>
-<wire x1="25.92" y1="17.03" x2="25.345" y2="17.03" width="0.2032" layer="1"/>
+<wire x1="26.035" y1="17.145" x2="27.2386" y2="17.145" width="0.2032" layer="16"/>
 </signal>
 <signal name="VCHGR">
 <contactref element="U2" pad="6"/>
